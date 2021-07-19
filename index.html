@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My CV</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__content">
+            <h1 class="header__title">Vadim Lasevich</h1>
+            <div class="header__contacts">
+               <h2 class="contacts__title">Contacts:</h2>
+               <div class="contacts__items">
+                  <ul class="contacts__list">
+                     <li class="contacts__item">
+                        <h3 class="contacts__item-title">Telegram:</h3>
+                        <a href="https://t.me/vadim_lasevich" class="contacts__link" target="_blank">@vadim_lasevich</a>
+                     </li>
+                     <li class="contacts__item">
+                        <h3 class="contacts__item-title">E-mail:</h3>
+                        <a href="https://mail.ru/lasevichv" class="contacts__link" target="_blank">lasevichv@mail.ru</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="header__img">
+            <img src="images/my_photo.JPG" alt="my_photo">
+         </div>
+      </div>
+   </header>
+   <section class="about-me">
+      <div class="container">
+         <div class="about-me__item">
+            <h2 class="about-me__title">The purpose of my training:</h2>
+            <p class="about-me__subtitle">
+               The goal of my training is to gain skills in the field of web development and find a job that will
+               bring joy and high income. I am able to quickly perceive new material and put it into action.
+            </p>
+         </div>
+         <div class="about-me__item">
+            <h2 class="about-me__title">My skill:</h2>
+            <p class="about-me__subtitle">
+               Good command of <span class="highlighted-word">SCSS, CSS3 \ HTML5</span>.
+               I have basic knowledge of <span class="highlighted-word">JavaScript</span>.
+               I use the <span class="highlighted-word">BEM</span> methodology for layout.
+               When developing projects I use <span class="highlighted-word">GULP, WEBPACK</span>.
+            </p>
+            <ul class="skill__list">
+               <li class="skill__item">HTML5</li>
+               <li class="skill__item">CSS3</li>
+               <li class="skill__item">SCSS</li>
+               <li class="skill__item">LESS</li>
+               <li class="skill__item">JavaScript</li>
+               <li class="skill__item">Methodology BEM</li>
+               <li class="skill__item">GULP</li>
+               <li class="skill__item">WEBPACK</li>
+            </ul>
+         </div>
+         <div class="about-me__item">
+            <h2 class="about-me__title">Sample code:</h2>
+            <p class="about-me__subtitle">Implementing a simple calculator:</p>
+            <pre>
+               function insert(num) {
+                  input.value = input.value + num;
+               }
+               for (let item of items) {
+                  item.addEventListener('click', () => {
+                     let number = item.innerHTML;
+                     input.value = input.value + number;
+                  })
+               }
+               clean.addEventListener('click', () => {
+                  input.value = '';
+               })
+               back.addEventListener('click', () => {
+                  let exp = input.value;
+                  input.value = exp.substring(0, exp.length - 1);
+               })
+               equal.addEventListener('click', () => {
+                  let exp = input.value;
+                  if (exp) {
+                     input.value = eval(exp);
+                  }
+               })
+            </pre>
+         </div>
+         <div class="about-me__item">
+            <h2 class="about-me__title">Work experience:</h2>
+            <p class="about-me__subtitle">
+               Work experience as a layout designer for more than one year.
+            </p>
+         </div>
+         <div class="about-me__item">
+            <h2 class="about-me__title">Education:</h2>
+            <p class="about-me__subtitle">
+               Specialized secondary education - <span class="highlighted-word">technician-technologist</span>.
+               Higher education - <span class="highlighted-word">software engineer</span> (automated information
+               processing systems).
+            </p>
+         </div>
+         <div class="about-me__item">
+            <h2 class="about-me__title">Knowledge of English:</h2>
+            <p class="about-me__subtitle">
+               Based on the results of several language proficiency test resources, my level is
+               <span class="highlighted-word">A2</span>.
+            </p>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <a href="https://github.com/vadimlasevich" class="footer__link-github" target="_blank">My GitHub</a>
+         <div class="footer__school">
+            <img src="images/rs_school_js.svg" alt="rs_school-img">
+            <a href="https://rs.school/js/" class="footer__link-rsschool" target="_blank">rs.school</a>
+         </div>
+         <span class="footer__text">2021</span>
+      </div>
+   </footer>
+</body>
+
+</html>

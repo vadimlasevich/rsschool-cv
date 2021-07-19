@@ -1,0 +1,131 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+:root {
+   font-size: 10px;
+}
+
+body {
+   background: rgb(234, 249, 255);
+   background: radial-gradient(circle, rgba(234, 249, 255, 1) 0%, rgba(35, 130, 242, 1) 100%);
+   color: rgb(36, 27, 27);
+   font-family: Georgia, Times, serif;
+}
+
+.container {
+   max-width: 116rem;
+   margin: 0 auto;
+   padding: 0 3rem;
+}
+.header {
+   padding: 3rem 0;
+}
+.header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 80rem;
+   margin: 0 auto;
+}
+.header__img img {
+   max-width: 25rem;
+   height: auto;
+   border-radius: 20px;
+}
+.header__title {
+   font-size: 5rem;
+   margin-bottom: 5rem;
+}
+.contacts__title {
+   font-size: 3rem;
+   margin-bottom: 2rem;
+}
+.contacts__items {
+   display: flex;
+}
+.contacts__item-title {
+   font-size: 1.8rem;
+   margin-bottom: 1.5rem;
+}
+.contacts__list {
+   display: flex;
+}
+.contacts__item {
+   margin-right: 5rem;
+   list-style: none;
+}
+.contacts__link {
+   text-decoration: none;
+   padding-bottom: 0.5rem;
+   color: #000;
+   font-size: 1.5rem;
+}
+.contacts__link:hover,
+.footer__link-github:hover,
+.footer__link-rsschool:hover {
+   border-bottom: 2px solid #000;
+}
+
+.about-me__item:not(:last-child) {
+   margin-bottom: 5rem;
+}
+.about-me__title {
+   font-size: 3rem;
+   text-align: center;
+}
+.about-me__subtitle {
+   font-size: 1.8rem;
+   letter-spacing: 0.1rem;
+   line-height: 3rem;
+   margin-top: 2rem;
+}
+.skill__list {
+   margin-left: 5rem;
+   margin-top: 3rem;
+}
+.skill__item {
+   font-size: 2rem;
+}
+.highlighted-word {
+   font-weight: 700;
+   font-size: 2rem;
+}
+pre {
+   font-size: 1.5rem;
+   margin-top: 2rem;
+}
+
+.footer {
+   margin-top: 4rem;
+   padding: 3rem 0;
+   background: dodgerblue;
+}
+.footer .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__link-github {
+   font-size: 2rem;
+   text-decoration: none;
+   color: #000;
+}
+.footer__link-rsschool {
+   font-size: 2rem;
+   text-decoration: none;
+   color: #000;
+   margin-left: 2rem;
+}
+.footer__school {
+   display: flex;
+   align-items: center;
+}
+.footer__school img {
+   width: 20rem;
+}
+.footer__text {
+   display: block;
+   font-size: 2rem;
+}
