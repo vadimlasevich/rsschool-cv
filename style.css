@@ -49,8 +49,12 @@ body {
    font-size: 1.8rem;
    margin-bottom: 1.5rem;
 }
-.contacts__telegram {
+.contacts__list {
+   display: flex;
+}
+.contacts__item {
    margin-right: 5rem;
+   list-style: none;
 }
 .contacts__link {
    text-decoration: none;
@@ -76,6 +80,13 @@ body {
    letter-spacing: 0.1rem;
    line-height: 3rem;
    margin-top: 2rem;
+}
+.skill__list {
+   margin-left: 5rem;
+   margin-top: 3rem;
+}
+.skill__item {
+   font-size: 2rem;
 }
 .highlighted-word {
    font-weight: 700;
